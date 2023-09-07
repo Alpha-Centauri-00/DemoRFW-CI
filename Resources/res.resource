@@ -2,4 +2,4 @@
 
 Print Text
     [Arguments]    ${text}
-    Log    ${text}
+    Log    ${text}    WARN
