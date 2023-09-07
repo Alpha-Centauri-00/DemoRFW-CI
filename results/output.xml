@@ -1,26 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<robot generator="Robot 6.1.1 (Python 3.11.3 on win32)" generated="20230907 19:47:26.885" rpa="false" schemaversion="4">
+<robot generator="Robot 6.1.1 (Python 3.11.3 on win32)" generated="20230907 19:58:27.141" rpa="false" schemaversion="4">
 <suite id="s1" name="DemoRFW-CI" source="D:\Robot_FW\DemoRFW-CI">
 <suite id="s1-s1" name="Tests" source="D:\Robot_FW\DemoRFW-CI\Tests">
 <suite id="s1-s1-s1" name="New Testcase" source="D:\Robot_FW\DemoRFW-CI\Tests\new_testcase.robot">
-<test id="s1-s1-s1-t1" name="new test case" line="6">
-<kw name="Print Text" library="res">
+<test id="s1-s1-s1-t1" name="amother test case" line="9">
+<kw name="Log To Console" library="BuiltIn">
 <arg>Hello Mars!</arg>
-<kw name="Log" library="BuiltIn">
-<arg>${text}</arg>
-<doc>Logs the given message with the given level.</doc>
-<msg timestamp="20230907 19:47:26.969" level="INFO">Hello Mars!</msg>
-<status status="PASS" starttime="20230907 19:47:26.968" endtime="20230907 19:47:26.970"/>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" starttime="20230907 19:58:27.202" endtime="20230907 19:58:27.203"/>
 </kw>
-<status status="PASS" starttime="20230907 19:47:26.967" endtime="20230907 19:47:26.970"/>
-</kw>
-<status status="PASS" starttime="20230907 19:47:26.964" endtime="20230907 19:47:26.972"/>
+<status status="PASS" starttime="20230907 19:58:27.199" endtime="20230907 19:58:27.204"/>
 </test>
-<status status="PASS" starttime="20230907 19:47:26.956" endtime="20230907 19:47:26.973"/>
+<status status="PASS" starttime="20230907 19:58:27.188" endtime="20230907 19:58:27.210"/>
 </suite>
-<status status="PASS" starttime="20230907 19:47:26.951" endtime="20230907 19:47:26.977"/>
+<status status="PASS" starttime="20230907 19:58:27.182" endtime="20230907 19:58:27.214"/>
 </suite>
-<status status="PASS" starttime="20230907 19:47:26.918" endtime="20230907 19:47:26.982"/>
+<status status="PASS" starttime="20230907 19:58:27.150" endtime="20230907 19:58:27.219"/>
 </suite>
 <statistics>
 <total>
