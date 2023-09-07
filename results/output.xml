@@ -1,32 +1,41 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<robot generator="Robot 6.1.1 (Python 3.11.3 on win32)" generated="20230907 19:58:27.141" rpa="false" schemaversion="4">
-<suite id="s1" name="DemoRFW-CI" source="D:\Robot_FW\DemoRFW-CI">
-<suite id="s1-s1" name="Tests" source="D:\Robot_FW\DemoRFW-CI\Tests">
-<suite id="s1-s1-s1" name="New Testcase" source="D:\Robot_FW\DemoRFW-CI\Tests\new_testcase.robot">
-<test id="s1-s1-s1-t1" name="amother test case" line="9">
+<robot generator="Robot 6.1.1 (Python 3.11.3 on win32)" generated="20230907 20:01:21.431" rpa="false" schemaversion="4">
+<suite id="s1" name="Tests" source="D:\Robot_FW\DemoRFW-CI\Tests">
+<suite id="s1-s1" name="New Testcase" source="D:\Robot_FW\DemoRFW-CI\Tests\new_testcase.robot">
+<test id="s1-s1-t1" name="new test case" line="6">
+<kw name="Print Text" library="res">
+<arg>Hello Mars!</arg>
+<kw name="Log" library="BuiltIn">
+<arg>${text}</arg>
+<doc>Logs the given message with the given level.</doc>
+<msg timestamp="20230907 20:01:21.481" level="INFO">Hello Mars!</msg>
+<status status="PASS" starttime="20230907 20:01:21.481" endtime="20230907 20:01:21.481"/>
+</kw>
+<status status="PASS" starttime="20230907 20:01:21.480" endtime="20230907 20:01:21.481"/>
+</kw>
+<status status="PASS" starttime="20230907 20:01:21.478" endtime="20230907 20:01:21.482"/>
+</test>
+<test id="s1-s1-t2" name="amother test case" line="9">
 <kw name="Log To Console" library="BuiltIn">
 <arg>Hello Mars!</arg>
 <doc>Logs the given message to the console.</doc>
-<status status="PASS" starttime="20230907 19:58:27.202" endtime="20230907 19:58:27.203"/>
+<status status="PASS" starttime="20230907 20:01:21.484" endtime="20230907 20:01:21.485"/>
 </kw>
-<status status="PASS" starttime="20230907 19:58:27.199" endtime="20230907 19:58:27.204"/>
+<status status="PASS" starttime="20230907 20:01:21.483" endtime="20230907 20:01:21.485"/>
 </test>
-<status status="PASS" starttime="20230907 19:58:27.188" endtime="20230907 19:58:27.210"/>
+<status status="PASS" starttime="20230907 20:01:21.462" endtime="20230907 20:01:21.489"/>
 </suite>
-<status status="PASS" starttime="20230907 19:58:27.182" endtime="20230907 19:58:27.214"/>
-</suite>
-<status status="PASS" starttime="20230907 19:58:27.150" endtime="20230907 19:58:27.219"/>
+<status status="PASS" starttime="20230907 20:01:21.447" endtime="20230907 20:01:21.494"/>
 </suite>
 <statistics>
 <total>
-<stat pass="1" fail="0" skip="0">All Tests</stat>
+<stat pass="2" fail="0" skip="0">All Tests</stat>
 </total>
 <tag>
 </tag>
 <suite>
-<stat pass="1" fail="0" skip="0" id="s1" name="DemoRFW-CI">DemoRFW-CI</stat>
-<stat pass="1" fail="0" skip="0" id="s1-s1" name="Tests">DemoRFW-CI.Tests</stat>
-<stat pass="1" fail="0" skip="0" id="s1-s1-s1" name="New Testcase">DemoRFW-CI.Tests.New Testcase</stat>
+<stat pass="2" fail="0" skip="0" id="s1" name="Tests">Tests</stat>
+<stat pass="2" fail="0" skip="0" id="s1-s1" name="New Testcase">Tests.New Testcase</stat>
 </suite>
 </statistics>
 <errors>

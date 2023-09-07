@@ -8,3 +8,6 @@ new test case
 
 amother test case
     Log To Console    Hello Mars!
+
+test case to log
+    Log    This is a new Message   WARN
